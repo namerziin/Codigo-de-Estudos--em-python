@@ -1,0 +1,54 @@
+Executei o programa normalmente e a opção escolhida foi a 1, ver estoque:
+
+----- CONTROLE DE ESTOQUE -----
+1 - Ver estoque
+2 - Entrada de produtos
+3 - Saída de produtos
+4 - Sair
+Escolha uma opção: 1
+
+ESTOQUE ATUAL:
+
+Blusas
+Quantidade: 10
+Valor: R$20.00
+
+Bermudas
+Quantidade: 5
+Valor: R$40.00
+
+Calças
+Quantidade: 8
+Valor: R$60.00
+
+Após a verificação do estoque foi feito a entrada de 20 blusas, e novamente foi feito a verificação do estoque. Aqui o código funcionou perfeitamente e o produto entrou em promoção automáticamente
+
+ESTOQUE ATUAL:
+
+Produto em promoção: Blusas
+Quantidade: 60
+Valor: R$18.00
+
+Bermudas
+Quantidade: 5
+Valor: R$40.00
+
+Calças
+Quantidade: 8
+Valor: R$60.00
+
+Depois foi dado a saída de 20 blusas, e foi verificado o estoque novamente. Aqui era pro produto continuar em promoção, o valor continua, mas o status não... Eu queria que o status continuasse para que o usuário indentificasse que aquele produto está em promoção...
+
+ESTOQUE ATUAL:
+
+Blusas
+Quantidade: 40
+Valor: R$18.00
+
+Bermudas
+Quantidade: 5
+Valor: R$40.00
+
+Calças
+Quantidade: 8
+Valor: R$60.00
