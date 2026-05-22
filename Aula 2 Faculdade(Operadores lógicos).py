@@ -1,31 +1,3 @@
-"""while True:
-    try:
-        idade = int(input("Digite Sua idade: "))
-        
-        if(idade == 24):
-            classificacao = "Você é gay!!!"
-
-        elif(idade > 80):
-            classificacao = "Você está velho pra caralho!"
-
-        elif(idade >= 18):
-            classificacao = "Você é maior de idade"
-
-        else:
-            classificacao = "Você é menor de idade"
-
-        print(classificacao)
-        break
-    
-    except ValueError:
-        print("Digite apenas números inteiros.")"""
-
-""" not(negação) and(todas as condições) or(uma das condições) """
-
-"""idade = 70
-print(idade > 20 and idade < 60)#retorna false
-print(idade > 20 or idade < 60)#retorna true
-print(not idade > 20)#retorna false"""
 
 #Sistema de Gestão Estoque
 estoque = { #dicionário onde a chave é o nome do produto, pois achei mais fácil de desenvolver por esse modelo.
